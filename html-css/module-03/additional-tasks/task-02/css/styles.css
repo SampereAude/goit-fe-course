@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 480px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.article-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #8ecf8e;
+    margin-bottom: 10px;
+}
+
+.text-first {
+    font-weight: 600;
+    font-size: 20;
+    background-color: #3ba33b;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.text-second {
+    font-size: 18;
+    background-color: #236e23;
+}
+
+.image {
+    width: 100%;
+}
+
+.article {
+    color: #2e2e33;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+}
