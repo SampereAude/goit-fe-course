@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 480px;
+    margin: auto;
+    padding-top: 30px;
+    background-color: rgb(252, 252, 253);
+}
+
+.body {
+    min-height: 100hv;
+    font-family: 'Pathway Gothic One', sans-serif;
+    padding-top: 50px;
+}
+
+.article {
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.article-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: rgb(54, 52, 177);
+}
+
+.article-caption {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgb(54, 52, 177);
+}
+
+.text-one {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(54, 52, 177);
+}
+
+.text-two {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.text-three {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(54, 52, 177);
+}
+
+.list {
+    font-weight: 700;
+    column-count: 2;
+}
+
+.list a {
+    text-decoration: none;
+    color: rgb(54, 52, 177);
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.background-top {
+    background-image: url(../images/boat-picture.jpeg);
+    height: 200px; width: 100%;
+    background-position: center;
+}
+
+.background {
+    background-image: url(../images/sea-picture.jpeg);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+}
