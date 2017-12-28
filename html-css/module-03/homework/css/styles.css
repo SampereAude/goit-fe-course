@@ -12,9 +12,13 @@
 }
 
 .body {
-    min-height: 100hv;
+    min-height: 100vh;
     font-family: 'Pathway Gothic One', sans-serif;
     padding-top: 50px;
+    background-image: url(../images/sea-picture.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .article {
@@ -43,7 +47,6 @@
 }
 
 .text-two {
-    margin-bottom: 20px;
     text-align: left;
 }
 
@@ -67,15 +70,10 @@
     margin-bottom: 10px;
 }
 
+
+
 .background-top {
     background-image: url(../images/boat-picture.jpeg);
     height: 200px; width: 100%;
-    background-position: center;
-}
-
-.background {
-    background-image: url(../images/sea-picture.jpeg);
-    background-size: cover;
-    background-repeat: no repeat;
     background-position: center;
 }
