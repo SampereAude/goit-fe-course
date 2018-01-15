@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Pathway Gothic One', sans-serif;
+    counter-reset: count-box;
+    background-image: url(../images/drawn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 30px 20px;
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-bottom: 15px;
+}
+
+.list {
+    text-align: center;
+}
+
+.list li {
+    display: inline-block;
+}
+
+.list a {
+    display: block;
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #339c7d;
+    background-color: #0f504a;
+    border: 1px solid #06201e;
+}
+
+.list a:hover {
+    background-color: #51c74d;
+    color: #18861e;
+}
+
+
+.words {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.words li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.words li:nth-of-type(3n+1) {
+    color: #0E1116;
+    background-color: #88292F;
+}
+
+.words li:nth-of-type(3n+2) {
+    color: #0E1116;
+    background-color: #5DB7DE;
+}
+
+.words li:nth-of-type(3n+3) {
+    color: #0E1116;
+    background-color: #0D5D56;
+}
+
+.yours {
+    text-align: left;
+    font-size: 25px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.yours li {
+    padding: 10px;
+}
+
+.yours li:nth-of-type(3n+1) {
+    color: #0E1116;
+    background-color: #88292F;
+}
+
+.yours li:nth-of-type(3n+2) {
+    color: #0E1116;
+    background-color: #5DB7DE;
+}
+
+.yours li:nth-of-type(3n+3) {
+    color: #0E1116;
+    background-color: #0D5D56;
+}
+
+.arrows li {
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.arrows a {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #146962;
+}
+
+.arrows a::before {
+    display: inline-block;
+    content: url('https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/gradient/32x32/door_exit.png');
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.target {
+    margin-bottom: 15px;
+}
+
+.target p:target {
+    color: #ff0000;
+}
+
+.target li {
+    display: inline-block;
+    list-style: none;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.target h4 {
+    margin-bottom: 10px;
+    color: #144440;
+}
+
+.target p {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #195853;
+}
+
+h4 {
+    font-size: 25px;
+
+}
+
+.target a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #146962;
+}
+
+.box {
+    color: #195853;
+    font-size: 25px;
+    counter-increment: count-box;
+    padding-bottom: 5px;
+}
+
+.box::before {
+    color: #88292F;
+    border: solid 1px;
+    padding: 0px 2px;
+    content: counter(count-box);
+    margin-right: 10px;
+}
