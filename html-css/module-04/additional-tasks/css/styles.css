@@ -8,10 +8,6 @@ body {
     min-height: 100vh;
     font-family: 'Pathway Gothic One', sans-serif;
     counter-reset: count-box;
-    background-image: url(../images/drawn.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 
@@ -64,7 +60,6 @@ ul {
 }
 
 .words li {
-    display: inline-block;
     padding: 10px;
 }
 
@@ -84,15 +79,17 @@ ul {
 }
 
 .yours {
-    text-align: left;
+    text-align: center;
     font-size: 25px;
     text-transform: uppercase;
     list-style: none;
 }
 
 .yours li {
+    display: inline-block;
     padding: 10px;
 }
+
 
 .yours li:nth-of-type(3n+1) {
     color: #0E1116;
@@ -183,4 +180,8 @@ h4 {
     padding: 0px 2px;
     content: counter(count-box);
     margin-right: 10px;
+}
+
+.fifth li {
+    list-style: none;
 }
