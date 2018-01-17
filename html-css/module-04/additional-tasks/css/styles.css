@@ -15,7 +15,6 @@ body {
     width: 800px;
     margin: auto;
     padding: 30px 20px;
-    background-color: #ffffff;
 }
 
 h2 {
@@ -182,6 +181,6 @@ h4 {
     margin-right: 10px;
 }
 
-.fifth li {
+.fifth ul {
     list-style: none;
 }
