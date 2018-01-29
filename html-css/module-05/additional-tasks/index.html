@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">      
+    <title>Additional Tasks 5 Korniienko</title>
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/variables.css">
+</head>
+
+<body>
+ <main>
+  <section class="task">
+    <h2>first task</h2>
+    <a href="#" class="logo">journey</a>
+   </section>
+   <section class="task">
+    <h2>second and fourth task</h2>
+    <ul class="menu">
+     <li class="menu__item"><a href="#">home</a></li>
+     <li class="menu__item">
+        <a href="#" class="sub-sign">about</a>
+        <ul class="submenu">
+         <li class="submenu__item"><a href="#">agency</a></li>
+         <li class="submenu__item"><a href="#">news</a></li>
+         <li class="submenu__item"><a href="#">team</a></li>
+        </ul>
+     </li>
+     <li class="menu__item"><a href="#">gallery</a></li>
+     <li class="menu__item"><a href="#">tours</a></li>
+     <li class="menu__item"><a href="#">blog</a></li>
+     <li class="menu__item"><a href="#">contacts</a></li>
+    </ul>
+  </section>
+  <h2>third task</h2>
+  <slider class="slider">
+    <figure><img src="images/boat.jpg" alt="come with us!"></figure>
+    <figure><img src="images/diving.jpeg" alt="let's have a great time!"></figure>
+    <figure><img src="images/fishing.jpg" alt="tasty fishing!"></figure>
+  </slider>
+  <ul class="arrowleft">
+        <li><a href="#"></a></li>
+       </ul>
+       <ul class="arrowright">
+        <li><a href="#"></a></li>
+  </ul>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.slider').slick({
+        // autoplay: true,
+        // autoplaySpeed: 2000,
+        prevArrow: '<button class="slick-prev"></button>',
+        nextArrow: '<button class="slick-next"></button>',
+      });
+    });
+  </script>
+ </main>
+</body>

@@ -1,0 +1,183 @@
+body {
+    min-height: 100vh;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+	font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(38, 53, 85);
+    border: 0.5px solid #c8d7e2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.task {
+    margin-bottom: 20px;
+}
+
+.menu {
+    width: 700px;
+    height: 130px;
+    box-sizing: border-box;
+    background-color: rgb(127, 177, 241);
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu__item {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.menu__item > a,
+.submenu__item > a {
+  display: inline-block;
+  height: 20px;
+  padding: 0 25px; 
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+}
+
+.submenu__item {
+    font-size: 16px;
+    color:  rgb(38, 53, 85);
+    height: 15px;
+}
+
+.submenu__item > a{
+    color:  rgb(38, 53, 85);
+}
+
+.menu__item>a:hover {
+    color: rgb(38, 53, 85);
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    left: -5px;
+    top: 20px;
+    list-style: none;
+    padding: 5px 5px;
+}
+
+.menu__item:hover>.submenu {
+    display: block;
+    background-color: rgba(255, 255, 255);
+}
+
+.submenu__item {
+    color: rgb(38, 53, 85);
+    margin-top: 15px;
+    text-align: center;
+  }
+
+.slider {
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    /* position: relative; */
+}
+
+.slick-arrow {
+position: absolute;
+border: 0;
+z-index: 1;
+background-color: rgb(56, 175, 229);
+height: 60px;
+width: 35px;
+cursor: pointer;
+}
+
+.slick-arrow:hover {
+    background-color: rgba (56, 175, 229, 0.4);
+}
+
+.slick-prev {
+bottom: 50px;
+left: 115px;
+border-top-left-radius: 50%;
+border-bottom-left-radius: 50%;
+}
+
+.slick-next {
+    bottom: 50px;
+    left: 150px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+img {
+    height: 700px;
+    width: 900px;
+}
+
+.arrowright {
+    position: absolute;
+    bottom: -300px;
+    left: 269px;
+    z-index: 1;
+}
+
+.arrowleft {
+    position: absolute;
+    bottom: -300px;
+    left: 230px;
+    z-index: 1;
+}
+/* I do not know how to minimize these arrows */
+
+.arrowleft a::before {
+    display: inline-block;
+    /* content: url('https://www.imaginovation.net/wp-content/themes/imaginovation/images/arrow-left.png'); */
+    vertical-align: middle; 
+    width: 50px;
+    height: 50px;
+}
+
+.arrowright a::before {
+    display: inline-block;
+    /* content: url('http://www.freeiconspng.com/uploads/white-arrow-transparent-png-22.png'); */
+    vertical-align: middle; 
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.Shape_7 {
+    border-radius: 50%;
+    background-color: rgb(56, 175, 229);
+    position: absolute;
+    left: 546px;
+    top: 743px;
+    width: 90px;
+    height: 90px;
+    z-index: 145;
+  }
+  
+  
+  
