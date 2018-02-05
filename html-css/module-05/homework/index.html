@@ -2,8 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">      
-    <title>Additional Tasks 5 Korniienko</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Module 5 Korniienko</title>
+    <link href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="css/reset.css">
@@ -13,12 +16,12 @@
 
 <body>
     <main>
-        <section class="header">
+        <header class="header">
             <nav class="navigation">
-                <ul class="menuhomeaboutgallery">
+                <ul>
                 <li class="menu__item"><a href="#">home</a></li>
                 <li class="menu__item">
-                    <a href="#" class="sub-sign">about</a>
+                    <a href="#">about</a>
                     <ul class="submenu">
                          <li class="submenu__item"><a href="#">agency</a></li>
                          <li class="submenu__item"><a href="#">news</a></li>
@@ -26,26 +29,69 @@
                     </ul>
                 </li>
                 <li class="menu__item"><a href="#">gallery</a></li>
-                </ul>
-                <a href="#" class="logo">journey</a>
-                <ul class="menutoursblogcontacts">
                 <li class="menu__item"><a href="#">tours</a></li>
                 <li class="menu__item"><a href="#">blog</a></li>
                 <li class="menu__item"><a href="#">contacts</a></li>
                 </ul>
+                <div class="logo">
+                    <a href="#">journey</a>
+                    <div class="box-1"></div>
+                    <div class="box-2"></div>
+                    <div class="box-3"></div>
+                </div>
             </nav>
-        </section>
+        </header>
         <section class="wrapper">
         <section class="slider">
             <figure><img src="images/boat.jpg" alt="come with us!"></figure>
             <figure><img src="images/boat.jpg" alt="let's have a great time!"></figure>
             <figure><img src="images/boat.jpg" alt="tasty vacation!"></figure>
         </section>
-            <ul class="arrowleft"><li><a href="#"></a></li></ul>
-            <ul class="arrowright"><li><a href="#"></a></li></ul>
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
             <span class="places">there are plenty of places</span>            
-            <span class="worth">that are worth of seeing</span>        
-              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <span class="worth">that are worth of seeing</span>
+        <section class="destinations">
+            <h2>top destinations</h2>
+            <div class="cities">
+            <img src="images/venice.jpg" alt="amazing Venice!">
+            <div class="citydetails">
+            <h3>venice</h3>
+            <p>Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu
+                velite a rew qw vehicula lacinia arcufasecro. Aenean lacinia ucibusy fase tortor ut feugiat.
+                Rabitur oliti aliquam bibendum olor quis malesuadivamu.</p>
+                <button class="btn">Details</button>
+            </div>
+            </div>
+
+            <div class="cities">
+            <img src="images/usa.jpg" alt="adorable States!">
+            <div class="citydetails">
+            <h3>new york</h3>
+            <p>Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu
+                velite a rew qw vehicula lacinia arcufasecro. Aenean lacinia ucibusy fase tortor ut feugiat.
+                Rabitur oliti aliquam bibendum olor quis malesuadivamu.</p>
+            <button class="btn">Details</button>
+            </div>
+        </div>
+
+            <div class="cities">
+            <img src="images/paris.jpg" alt="charming Paris!">
+            <div class="citydetails">
+            <h3>paris</h3>
+            <p>Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu
+                velite a rew qw vehicula lacinia arcufasecro. Aenean lacinia ucibusy fase tortor ut feugiat.
+                Rabitur oliti aliquam bibendum olor quis malesuadivamu.</p>
+            <button class="btn">Details</button>
+            </div>
+        </div>
+        </section>
+        
+    </header>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
               <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
               <script>
                 $(document).ready(function () {
@@ -57,42 +103,4 @@
                   });
                 });
               </script>
-        <section class="destinations">
-            <h2>top destinations</h2>
-            <figure class="city">
-            <img src="images/venice.jpg" alt="amazing Venice!">
-            <div class="citydetails">
-            <h3>venice</h3>
-            <p>Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu
-                velite a rew qw vehicula lacinia arcufasecro. Aenean lacinia ucibusy fase tortor ut feugiat.
-                Rabitur oliti aliquam bibendum olor quis malesuadivamu.</p>
-                <button class="btn">Details</button>
-            </div>
-            </figure>
-
-            <figure class="city">
-            <img src="images/usa.jpg" alt="adorable States!">
-            <div class="citydetails">
-            <h3>new york</h3>
-            <p>Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu
-                velite a rew qw vehicula lacinia arcufasecro. Aenean lacinia ucibusy fase tortor ut feugiat.
-                Rabitur oliti aliquam bibendum olor quis malesuadivamu.</p>
-            <button class="btn">Details</button>
-            </div>
-            </figure>
-
-            <figure class="city">
-            <img src="images/paris.jpg" alt="charming Paris!">
-            <div class="citydetails">
-            <h3>paris</h3>
-            <p>Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu
-                velite a rew qw vehicula lacinia arcufasecro. Aenean lacinia ucibusy fase tortor ut feugiat.
-                Rabitur oliti aliquam bibendum olor quis malesuadivamu.</p>
-            <button class="btn">Details</button>
-            </div>
-            </figure>
-        </section>
-        
-        </section>
-    </main>
 </body>
