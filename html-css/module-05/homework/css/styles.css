@@ -11,7 +11,7 @@ body {
     color: #8db5d1;
 }
 
-main {
+.wrap {
     width: 1024px;
     margin: auto;
 }
@@ -20,10 +20,8 @@ nav {
     position: relative;
 }
 
-.navigation {
-    display: block;
-    width: 830px;
-    margin: auto;
+.style {
+    text-align: center;
 }
 .header {
     margin-bottom: 100px;
@@ -104,6 +102,7 @@ nav {
     display: block;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    padding-bottom: 5px;
 }
 
 .submenu {
@@ -162,9 +161,9 @@ nav {
 .wrapper {
     width: 1024px;
     margin: auto;
-    height: 100%;
     padding: 50px;
     background-color: rgb(255, 255, 255);
+    position: relative;
 }
 
 .slider {
@@ -236,8 +235,10 @@ nav {
     background-color: rgb(255, 255, 255);
     padding: 9px 15px;
     position: absolute;
-    top: 568px;
+    top: 200px;
+    left: 20px;
     border: 1px solid rgb(241, 241, 234);
+    z-index: 30;
 }
 
 .worth {
@@ -249,7 +250,9 @@ nav {
     background-color: #38afe5;
     padding: 8px 10px;
     position: absolute;
-    top: 615px;
+    top: 115px;
+    left: 20px;
+    z-index: 30;
 }
 
 .worth a {
